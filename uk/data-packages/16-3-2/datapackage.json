@@ -1,0 +1,56 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Рік"
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "до 18 років",
+                "від 18 до 35 років включно",
+                "від 36 до 60 років включно",
+                "понад 60 років",
+                ""
+              ]
+            },
+            "title": "Вік"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "чоловіки",
+                "жінки",
+                ""
+              ]
+            },
+            "title": "Стать"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "16-3-2",
+  "title": "16-3-2"
+}
