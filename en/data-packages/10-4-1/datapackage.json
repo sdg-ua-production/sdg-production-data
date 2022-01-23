@@ -11,7 +11,7 @@
       "schema": {
         "fields": [
           {
-            "name": "Type of residence",
+            "name": "Region",
             "type": "string",
             "constraints": {
               "enum": [
@@ -43,7 +43,7 @@
                 "Kyiv city"
               ]
             },
-            "title": "Type of residence"
+            "title": "Region"
           },
           {
             "name": "Value",
@@ -61,5 +61,5 @@
   ],
   "profile": "data-package",
   "name": "10-4-1",
-  "title": "10-4-1"
+  "title": "Ratio of the average wage (income) of 10th and first decile groups of workers (decile coefficient), times"
 }

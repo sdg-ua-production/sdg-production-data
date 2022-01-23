@@ -11,14 +11,38 @@
       "schema": {
         "fields": [
           {
-            "name": "Group",
-            "type": "number",
+            "name": "Region",
+            "type": "string",
             "constraints": {
               "enum": [
-                ""
+                "",
+                "Vinnytsya",
+                "Volyn",
+                "Dnipropetrovsk",
+                "Donetsk",
+                "Zhytomyr",
+                "Zakarpattya",
+                "Zaporizhya",
+                "Ivano-Frankivsk",
+                "Kyiv",
+                "Kirovohrad",
+                "Luhansk",
+                "Lviv",
+                "Mykolayiv",
+                "Odesa",
+                "Poltava",
+                "Rivne",
+                "Sumy",
+                "Ternopil",
+                "Kharkiv",
+                "Kherson",
+                "Khmelnytskiy",
+                "Cherkasy",
+                "Chernivtsi",
+                "Chernihiv"
               ]
             },
-            "title": "Group"
+            "title": "Region"
           },
           {
             "name": "Value",
@@ -36,5 +60,5 @@
   ],
   "profile": "data-package",
   "name": "9-1-1",
-  "title": "9-1-1"
+  "title": "Share of the rural population living further than 3 km from paved roads, %"
 }

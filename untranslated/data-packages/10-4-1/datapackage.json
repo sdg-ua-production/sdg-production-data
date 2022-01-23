@@ -15,7 +15,7 @@
             "type": "integer"
           },
           {
-            "name": "Type of residence",
+            "name": "Region",
             "type": "string",
             "constraints": {
               "enum": [
@@ -58,5 +58,5 @@
   ],
   "profile": "data-package",
   "name": "10-4-1",
-  "title": "10-4-1"
+  "title": "global_indicators.10-4-1-title"
 }

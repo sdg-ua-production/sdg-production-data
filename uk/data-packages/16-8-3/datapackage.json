@@ -16,14 +16,16 @@
             "title": "Рік"
           },
           {
-            "name": "Group",
-            "type": "number",
+            "name": "Region",
+            "type": "string",
             "constraints": {
               "enum": [
+                "Донецька",
+                "Луганська",
                 ""
               ]
             },
-            "title": "Група"
+            "title": "Область"
           },
           {
             "name": "Value",

@@ -11,14 +11,36 @@
       "schema": {
         "fields": [
           {
-            "name": "Group",
-            "type": "number",
+            "name": "1_Level",
+            "type": "string",
             "constraints": {
               "enum": [
-                ""
+                "",
+                "barrier-free,%",
+                "partially barrier-free,%"
               ]
             },
-            "title": "Group"
+            "title": "Level"
+          },
+          {
+            "name": "Object",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Health care facilities",
+                "Educational institutions",
+                "Structural subdivisions on social protection issues",
+                "Employment centers",
+                "Centers for administrative services",
+                "National institutions",
+                "Railway stations, airports, bus stations",
+                "Institutions of the pension fund",
+                "Judge",
+                "Civil protection structures"
+              ]
+            },
+            "title": "Object"
           },
           {
             "name": "Value",

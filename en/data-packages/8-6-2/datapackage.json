@@ -12,10 +12,25 @@
         "fields": [
           {
             "name": "Group",
-            "type": "number",
+            "type": "string",
             "constraints": {
               "enum": [
-                ""
+                "",
+                "agriculture, forestry and fisheries",
+                "industry",
+                "construction",
+                "wholesale and retail trade, repair of motor vehicles and motorcycles",
+                "transport, warehousing, post and courier services",
+                "temporary accommodation and catering",
+                "information and telecommunications",
+                "financial and insurance activities",
+                "real estate transactions",
+                "professional, scientific and technical activities",
+                "administrative and support service activities",
+                "education",
+                "health care and social assistance",
+                "arts, sports, entertainment and recreation",
+                "provision of other services"
               ]
             },
             "title": "Group"
@@ -36,5 +51,5 @@
   ],
   "profile": "data-package",
   "name": "8-6-2",
-  "title": "8-6-2"
+  "title": "Share of value added against production costs of SMEs, % of total value added against production costs"
 }

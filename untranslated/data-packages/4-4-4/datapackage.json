@@ -15,10 +15,11 @@
             "type": "integer"
           },
           {
-            "name": "Group",
-            "type": "number",
+            "name": "Fund",
+            "type": "string",
             "constraints": {
               "enum": [
+                "state",
                 ""
               ]
             }

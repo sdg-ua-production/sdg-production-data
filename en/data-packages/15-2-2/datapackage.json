@@ -22,7 +22,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
@@ -36,5 +36,5 @@
   ],
   "profile": "data-package",
   "name": "15-2-2",
-  "title": "15-2-2"
+  "title": "Wood stock in forests, millions of cubic metres"
 }

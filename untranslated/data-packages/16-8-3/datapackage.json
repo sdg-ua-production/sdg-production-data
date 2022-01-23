@@ -15,10 +15,12 @@
             "type": "integer"
           },
           {
-            "name": "Group",
-            "type": "number",
+            "name": "Region",
+            "type": "string",
             "constraints": {
               "enum": [
+                "14_reg_Donetsk",
+                "21_reg_Luhansk",
                 ""
               ]
             }

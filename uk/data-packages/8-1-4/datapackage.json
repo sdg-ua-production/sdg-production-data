@@ -27,7 +27,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
@@ -36,5 +36,5 @@
   ],
   "profile": "data-package",
   "name": "8-1-4",
-  "title": "8-1-4"
+  "title": "Місце України у рейтингу за Глобальним інноваційним індексом"
 }

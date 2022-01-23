@@ -58,6 +58,7 @@
                 "aged_17",
                 "aged_18",
                 "aged_19",
+                "aged_20_under",
                 ""
               ]
             }
@@ -72,5 +73,5 @@
   ],
   "profile": "data-package",
   "name": "5-5-1",
-  "title": "5-5-1"
+  "title": "global_indicators.5-5-1-title"
 }

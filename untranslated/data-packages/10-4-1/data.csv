@@ -1,4 +1,4 @@
-Year,Type of residence,Value
+Year,Region,Value
 2015,,31.2
 2016,,30.4
 2017,,24.7
@@ -57,8 +57,8 @@ Year,Type of residence,Value
 2016,19_reg_Kyiv,
 2017,19_reg_Kyiv,
 2018,19_reg_Kyiv,
-2019,19_reg_Kyiv,33.3
-2020,19_reg_Kyiv,33.2
+2019,19_reg_Kyiv,33.6
+2020,19_reg_Kyiv,45.0
 2015,20_reg_Kirovohrad,
 2016,20_reg_Kirovohrad,
 2017,20_reg_Kirovohrad,

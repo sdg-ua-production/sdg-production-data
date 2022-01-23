@@ -16,14 +16,15 @@
             "title": "Рік"
           },
           {
-            "name": "Group",
-            "type": "number",
+            "name": "Fund",
+            "type": "string",
             "constraints": {
               "enum": [
+                "державний бюджет",
                 ""
               ]
             },
-            "title": "Група"
+            "title": "Джерела фінансування"
           },
           {
             "name": "Value",

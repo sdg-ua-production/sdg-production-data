@@ -11,14 +11,15 @@
       "schema": {
         "fields": [
           {
-            "name": "Group",
-            "type": "number",
+            "name": "Fund",
+            "type": "string",
             "constraints": {
               "enum": [
-                ""
+                "",
+                "state budget"
               ]
             },
-            "title": "Group"
+            "title": "Sources of funding"
           },
           {
             "name": "Value",

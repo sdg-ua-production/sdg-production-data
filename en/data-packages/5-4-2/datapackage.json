@@ -22,7 +22,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
@@ -36,5 +36,5 @@
   ],
   "profile": "data-package",
   "name": "5-4-2",
-  "title": "5-4-2"
+  "title": "Share of women among the members of regional councils and local councils of regional significance, %"
 }

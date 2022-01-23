@@ -25,7 +25,7 @@
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }
@@ -33,5 +33,5 @@
   ],
   "profile": "data-package",
   "name": "5-4-2",
-  "title": "5-4-2"
+  "title": "global_indicators.5-4-2-title"
 }

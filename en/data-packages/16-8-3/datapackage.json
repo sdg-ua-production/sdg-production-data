@@ -11,14 +11,16 @@
       "schema": {
         "fields": [
           {
-            "name": "Group",
-            "type": "number",
+            "name": "Region",
+            "type": "string",
             "constraints": {
               "enum": [
-                ""
+                "",
+                "Donetsk",
+                "Luhansk"
               ]
             },
-            "title": "Group"
+            "title": "Region"
           },
           {
             "name": "Value",
