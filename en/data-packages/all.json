@@ -123,7 +123,7 @@
                 "agriculture, forestry and fisheries",
                 "industry",
                 "construction",
-                "wholesale and retail trade, repair of motor vehicles and motorcycles",
+                "wholesale and retail trade; repair of motor vehicles and motorcycles",
                 "transport, warehousing, post and courier services",
                 "temporary accommodation and catering",
                 "information and telecommunications",
@@ -131,7 +131,7 @@
                 "real estate transactions",
                 "professional, scientific and technical activities",
                 "administrative and support service activities",
-                "public administration and defense, compulsory social insurance",
+                "public administration and defense; compulsory social insurance",
                 "education",
                 "health care and social assistance",
                 "arts, sports, entertainment and recreation",
@@ -245,7 +245,7 @@
       "schema": {
         "fields": [
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -254,7 +254,7 @@
                 "male"
               ]
             },
-            "title": "Gender"
+            "title": "Sex"
           },
           {
             "name": "Type of residence",
@@ -403,9 +403,9 @@
               "enum": [
                 "",
                 "Intentional homicide, Art. 115",
-                "Intentional homicide committed in a state of intense emotional excitement, Srt. 116",
+                "Intentional homicide committed in a state of intense emotional excitement, Art. 116",
                 "Intentional murder of a newborn by mother, Art. 117",
-                "Intentional homicide committed while exceeding the limits of necessary defense or measures necessary to apprehend the offender, Art. 118",
+                "Intentional homicide committed while exceeding the limits of necessary defense or measures necessary to apprehend the the person who committed the criminal offense, Art. 118",
                 "Intentional grievous bodily harm, Art. 121"
               ]
             },
@@ -418,7 +418,7 @@
               "enum": [
                 "",
                 "Total criminal offenses (number)",
-                "Per 100 thousand persons"
+                "Per 100 thousand population"
               ]
             },
             "title": "Unit"
@@ -543,7 +543,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -561,7 +561,7 @@
                 "Cherkasy",
                 "Chernivtsi",
                 "Chernihiv",
-                "Kyiv city"
+                "the city of Kyiv"
               ]
             },
             "title": "Region"
@@ -578,7 +578,7 @@
           }
         ]
       },
-      "title": "Birth rate under the age of 20, per 1000 women aged 15-19"
+      "title": "Birth rate under the age of 20, per 1,000 women aged 15-19"
     },
     {
       "path": "10-3-1/data.csv",
@@ -670,7 +670,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -810,7 +810,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -828,7 +828,7 @@
                 "Cherkasy",
                 "Chernivtsi",
                 "Chernihiv",
-                "Kyiv city"
+                "the city of Kyiv"
               ]
             },
             "title": "Region"
@@ -897,10 +897,10 @@
             "constraints": {
               "enum": [
                 "",
-                "under 18 years old",
+                "under 18 years",
                 "18-35 years",
                 "36-60 years",
-                "over 61 years"
+                "61 years and older"
               ]
             },
             "title": "Age"
@@ -961,8 +961,8 @@
             "constraints": {
               "enum": [
                 "",
-                "Victims of crimes (per 100 thousand persons)",
-                "Victims of crimes (Art. 152), total"
+                "Victims of criminal offenses (per 100 thousand population)",
+                "Victims of criminal offenses (Art. 152), total"
               ]
             },
             "title": "Unit"
@@ -1040,7 +1040,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           },
           {
@@ -1207,7 +1207,7 @@
               "enum": [
                 "",
                 "Total criminal offenses (number)",
-                "Per 100 thousand persons"
+                "Per 100 thousand population"
               ]
             },
             "title": "Unit"
@@ -1237,16 +1237,16 @@
       "schema": {
         "fields": [
           {
-            "name": "Gender of the head of household",
+            "name": "Sex of the head of household",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "female",
-                "male"
+                "women",
+                "men"
               ]
             },
-            "title": "Gender of the head of household"
+            "title": "Sex of the head of household"
           },
           {
             "name": "Type of residence",
@@ -1291,12 +1291,12 @@
               "enum": [
                 "",
                 "Power generating companies of TPP",
-                "CHP",
-                "HPP",
-                "PSP",
+                "TPP and cogeneration units",
+                "HPS",
+                "HAPP",
                 "NPP",
-                "Captive power plants",
-                "Alternative energy sources (WSP, SPP, Biomass)"
+                "Block stations",
+                "Alternative energy sources (WPS, SPS, Biomass)"
               ]
             },
             "title": "Electricity generation"
@@ -1333,7 +1333,7 @@
                 "",
                 "18-35 years",
                 "36-60 years",
-                "over 61 years"
+                "61 years and older"
               ]
             },
             "title": "Age"
@@ -1380,25 +1380,13 @@
             "constraints": {
               "enum": [
                 "",
-                "under 18 years old",
+                "under 18 years",
                 "18-34 years",
                 "35-59 years",
-                "over 60 years"
+                "60 years and older"
               ]
             },
             "title": "Age"
-          },
-          {
-            "name": "Gender",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "females",
-                "males"
-              ]
-            },
-            "title": "Gender"
           },
           {
             "name": "Households",
@@ -1411,6 +1399,18 @@
               ]
             },
             "title": "Households"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "women",
+                "men"
+              ]
+            },
+            "title": "Sex"
           },
           {
             "name": "Value",
@@ -1559,15 +1559,15 @@
               "enum": [
                 "",
                 "suspended matter (dust)",
-                "sulfir dioxide",
+                "sulfur dioxide",
                 "carbon monoxide",
                 "nitrogen dioxide",
-                "nitric oxide",
+                "nitrogen oxide",
                 "phenol",
                 "soot",
                 "hydrogen fluoride",
                 "ammonia",
-                "formaldehide"
+                "formaldehyde"
               ]
             },
             "title": "Pollutants"
@@ -1645,7 +1645,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -1663,7 +1663,7 @@
                 "Cherkasy",
                 "Chernivtsi",
                 "Chernihiv",
-                "Kyiv city"
+                "the city of Kyiv"
               ]
             },
             "title": "Region"
@@ -1680,7 +1680,7 @@
           }
         ]
       },
-      "title": "Number of deaths from cerebrovascular disease at the age of 30–59, per 100000 men of corresponding age"
+      "title": "Number of deaths from cerebrovascular disease at the age of 30–59, per 100,000 men of corresponding age"
     },
     {
       "path": "7-3-1/data.csv",
@@ -1766,11 +1766,11 @@
             "constraints": {
               "enum": [
                 "",
-                "energy intensity",
-                "material intensity",
-                "carbon intensity",
-                "water intensity",
-                "waste intensity"
+                "GDP energy intensity",
+                "GDP material intensity",
+                "GDP carbon intensity",
+                "GDP water intensity",
+                "GDP waste intensity"
               ]
             },
             "title": "Resource intensity of GDP"
@@ -1895,7 +1895,7 @@
           }
         ]
       },
-      "title": "Water content of GDP, cubic metres of water used per UAH 1000 of GDP (actual prices)"
+      "title": "Water content of GDP, cubic metres of water used per UAH 1,000 of GDP (actual prices)"
     },
     {
       "path": "9-6-1/data.csv",
@@ -1919,7 +1919,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -1937,7 +1937,7 @@
                 "Cherkasy",
                 "Chernivtsi",
                 "Chernihiv",
-                "Kyiv city"
+                "the city of Kyiv"
               ]
             },
             "title": "Region"
@@ -2047,7 +2047,7 @@
       "schema": {
         "fields": [
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2056,7 +2056,7 @@
                 "male"
               ]
             },
-            "title": "Gender"
+            "title": "Sex"
           },
           {
             "name": "Value",
@@ -2196,7 +2196,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -2264,7 +2264,7 @@
           }
         ]
       },
-      "title": "Number of patients diagnosted with active tuberculosis for the first time, per 100000 persons"
+      "title": "Number of patients diagnosted with active tuberculosis for the first time, per 100,000 persons"
     },
     {
       "path": "8-6-2/data.csv",
@@ -2285,7 +2285,7 @@
                 "agriculture, forestry and fisheries",
                 "industry",
                 "construction",
-                "wholesale and retail trade, repair of motor vehicles and motorcycles",
+                "wholesale and retail trade; repair of motor vehicles and motorcycles",
                 "transport, warehousing, post and courier services",
                 "temporary accommodation and catering",
                 "information and telecommunications",
@@ -2371,7 +2371,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -2511,7 +2511,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -2529,7 +2529,7 @@
                 "Cherkasy",
                 "Chernivtsi",
                 "Chernihiv",
-                "Kyiv city"
+                "the city of Kyiv"
               ]
             },
             "title": "Region"
@@ -2546,7 +2546,7 @@
           }
         ]
       },
-      "title": "Number of deaths from cerebrovascular disease at the age of 30–59, per 100000 women of corresponding age"
+      "title": "Number of deaths from cerebrovascular disease at the age of 30–59, per 100,000 women of corresponding age"
     },
     {
       "path": "2-3-2/data.csv",
@@ -2627,16 +2627,16 @@
       "schema": {
         "fields": [
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "female",
-                "male"
+                "women",
+                "men"
               ]
             },
-            "title": "Gender"
+            "title": "Sex"
           },
           {
             "name": "Type of residence",
@@ -2649,6 +2649,18 @@
               ]
             },
             "title": "Type of residence"
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "percentage",
+                "minutes per day"
+              ]
+            },
+            "title": "Unit"
           },
           {
             "name": "Value",
@@ -2736,25 +2748,13 @@
             "constraints": {
               "enum": [
                 "",
-                "under 18 years old",
+                "under 18 years",
                 "18-34 years",
                 "35-59 years",
-                "over 60 years"
+                "60 years and older"
               ]
             },
             "title": "Age"
-          },
-          {
-            "name": "Gender",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "females",
-                "males"
-              ]
-            },
-            "title": "Gender"
           },
           {
             "name": "Households",
@@ -2767,6 +2767,18 @@
               ]
             },
             "title": "Households"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "women",
+                "men"
+              ]
+            },
+            "title": "Sex"
           },
           {
             "name": "Value",
@@ -2874,8 +2886,8 @@
             "constraints": {
               "enum": [
                 "",
-                "Victims of crimes (per 100 thousand persons)",
-                "Victims of crimes (Art. 149), total"
+                "Victims of criminal offenses (per 100 thousand population)",
+                "Victims of criminal offenses (Art. 149), total"
               ]
             },
             "title": "Unit"
@@ -2905,18 +2917,6 @@
       "schema": {
         "fields": [
           {
-            "name": "Gender",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "female",
-                "male"
-              ]
-            },
-            "title": "Gender"
-          },
-          {
             "name": "Group",
             "type": "number",
             "constraints": {
@@ -2938,7 +2938,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -2956,10 +2956,22 @@
                 "Cherkasy",
                 "Chernivtsi",
                 "Chernihiv",
-                "Kyiv city"
+                "the city of Kyiv"
               ]
             },
             "title": "Region"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "female",
+                "male"
+              ]
+            },
+            "title": "Sex"
           },
           {
             "name": "Value",
@@ -2973,7 +2985,7 @@
           }
         ]
       },
-      "title": "Number of patients diagnosted with HIV for the first time, per 100000 persons"
+      "title": "Number of patients diagnosted with HIV for the first time, per 100,000 persons"
     },
     {
       "path": "8-5-2/data.csv",
@@ -2997,7 +3009,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -3015,7 +3027,7 @@
                 "Cherkasy",
                 "Chernivtsi",
                 "Chernihiv",
-                "Kyiv city"
+                "the city of Kyiv"
               ]
             },
             "title": "Region"
@@ -3066,7 +3078,7 @@
           }
         ]
       },
-      "title": "Labour productivity in agriculture, USD 1000s per employee"
+      "title": "Labour productivity in agriculture, USD 1,000s per employee"
     },
     {
       "path": "11-5-1/data.csv",
@@ -3339,7 +3351,9 @@
                 "",
                 "18-35 years",
                 "36-60 years",
-                "over 61 years"
+                "36-59 years",
+                "61 years and older",
+                "60 years and older"
               ]
             },
             "title": "Age"
@@ -3354,6 +3368,10 @@
                 "propensity to migrate",
                 "cooperation in the community",
                 "political security",
+                "readiness for dialogue with different groups",
+                "the belief that everyone can influence changes in the country",
+                "social tolerance",
+                "active civic position",
                 "social cohesion and sense of ownership",
                 "tolerance and socially responsible citizenship",
                 "psycho-social adaptability",
@@ -3373,8 +3391,8 @@
             "constraints": {
               "enum": [
                 "",
-                "females",
-                "males"
+                "women",
+                "men"
               ]
             },
             "title": "Gender"
@@ -3387,7 +3405,7 @@
                 "",
                 "Dnipropetrovsk",
                 "Donetsk",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Luhansk",
                 "Kharkiv"
               ]
@@ -3496,7 +3514,7 @@
                 "",
                 "18-35 years",
                 "36-60 years",
-                "over 61 years"
+                "61 years and older"
               ]
             },
             "title": "Age"
@@ -3561,7 +3579,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           },
           {
@@ -3657,11 +3675,11 @@
             "constraints": {
               "enum": [
                 "",
-                "total number of victims of crimes, art. of CCU",
-                "intentional homicide (and relevant attempts), articles 115-118",
-                "rape (and relevant attempts), art. 152",
-                "intentional grievous bodily harm, art. 121",
-                "human trafficking or other illicit transactions involving the transfer of human beings, art. 149"
+                "total number of victims of criminal offenses, Аrt. of CCU",
+                "intentional homicide (and relevant attempts), Аrticles 115-118",
+                "rape (and relevant attempts), Аrt. 152",
+                "intentional grievous bodily harm, Аrt. 121",
+                "human trafficking or other illicit transactions involving the transfer of human beings, Аrt. 149"
               ]
             },
             "title": "Article of the Criminal Code of Ukraine"
@@ -3686,8 +3704,8 @@
             "constraints": {
               "enum": [
                 "",
-                "Victims of crimes (per 100 thousand persons)",
-                "Victims of crimes (total)"
+                "Victims of criminal offenses (per 100 thousand population)",
+                "Victims of criminal offenses (total)"
               ]
             },
             "title": "Unit"
@@ -3728,7 +3746,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -3746,7 +3764,7 @@
                 "Cherkasy",
                 "Chernivtsi",
                 "Chernihiv",
-                "Kyiv city"
+                "the city of Kyiv"
               ]
             },
             "title": "Region"
@@ -3821,7 +3839,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -3839,7 +3857,7 @@
                 "Cherkasy",
                 "Chernivtsi",
                 "Chernihiv",
-                "Kyiv city"
+                "the city of Kyiv"
               ]
             },
             "title": "Region"
@@ -3880,7 +3898,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -3938,7 +3956,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           },
           {
@@ -4043,7 +4061,7 @@
             "title": "Age"
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -4052,7 +4070,7 @@
                 "male"
               ]
             },
-            "title": "Gender"
+            "title": "Sex"
           },
           {
             "name": "Value",
@@ -4134,7 +4152,7 @@
           }
         ]
       },
-      "title": "Number of normative acts which were revised or adopted to provide men and women with equal rights and opportunities to prevent discrimination again women and girls, units"
+      "title": "Area of territories and objects of the natural reserve fund, thousands of hectares"
     },
     {
       "path": "5-2-11/data.csv",
@@ -4430,7 +4448,7 @@
                 "6 years",
                 "14 years",
                 "16 years",
-                "adult"
+                "adults"
               ]
             },
             "title": "Age"
@@ -4536,7 +4554,7 @@
           }
         ]
       },
-      "title": "Mortality of children under 5, cases per 1000 live births"
+      "title": "Mortality of children under 5, cases per 1,000 live births"
     },
     {
       "path": "15-1-2/data.csv",
@@ -4609,7 +4627,7 @@
           }
         ]
       },
-      "title": "Degree of depreciation of assets by ACE \"Transport, storage, post and courier services\", %"
+      "title": "Degree of depreciation of assets by TEA ‘Transport, storage, post and courier services’, %"
     },
     {
       "path": "4-4-3/data.csv",
@@ -4627,9 +4645,9 @@
             "constraints": {
               "enum": [
                 "",
-                "average cost per student, UAH",
-                "average costs per graduate student who study in the evening form of education, UAH",
-                "average cost per full-time graduate student, UAH",
+                "average cost per one student, UAH",
+                "average costs per one graduated student, who studies without separation of production, UAH",
+                "average cost per one graduated student, who studies with distance from production, UAH",
                 "average cost per doctoral student, UAH"
               ]
             },
@@ -4671,7 +4689,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -4689,7 +4707,7 @@
                 "Cherkasy",
                 "Chernivtsi",
                 "Chernihiv",
-                "Kyiv city"
+                "the city of Kyiv"
               ]
             },
             "title": "Region"
@@ -4706,7 +4724,7 @@
           }
         ]
       },
-      "title": "Number of deaths from malignant cervical tumours at the age of 30–59, per 100000 women of appropriate age"
+      "title": "Number of deaths from malignant cervical tumours at the age of 30–59, per 100,000 women of appropriate age"
     },
     {
       "path": "16-8-5/data.csv",
@@ -4842,7 +4860,7 @@
           }
         ]
       },
-      "title": "Number of deaths from road traffic accidents, per 100000 persons"
+      "title": "Number of deaths from road traffic accidents, per 100,000 persons"
     },
     {
       "path": "8-5-1/data.csv",
@@ -4866,7 +4884,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -4884,7 +4902,7 @@
                 "Cherkasy",
                 "Chernivtsi",
                 "Chernihiv",
-                "Kyiv city"
+                "the city of Kyiv"
               ]
             },
             "title": "Region"
@@ -5107,7 +5125,7 @@
           }
         ]
       },
-      "title": "Number of cases of maternal mortality, per 100000 live births"
+      "title": "Number of cases of maternal mortality, per 100,000 live births"
     },
     {
       "path": "8-2-2/data.csv",
@@ -5121,10 +5139,26 @@
         "fields": [
           {
             "name": "Group",
-            "type": "number",
+            "type": "string",
             "constraints": {
               "enum": [
-                ""
+                "",
+                "agriculture, forestry and fisheries",
+                "industry",
+                "construction",
+                "wholesale and retail trade; repair of motor vehicles and motorcycles",
+                "transport, warehousing, post and courier services",
+                "temporary accommodation and catering",
+                "information and telecommunications",
+                "financial and insurance activities",
+                "real estate transactions",
+                "professional, scientific and technical activities",
+                "administrative and support service activities",
+                "public administration and defense; compulsory social insurance",
+                "education",
+                "health care and social assistance",
+                "arts, sports, entertainment and recreation",
+                "provision of other services"
               ]
             },
             "title": "Group"
@@ -5345,7 +5379,7 @@
           }
         ]
       },
-      "title": "Share of workers employed by enterprises that belong to the high- and medium hightech sectors of processing industry (including production of pharmaceutical products and preparations; chemicals; mechanical engineering; computers, electronic and optical products; aircraft and spacecraft; related equipment according to CTEA) in the total number of workers employed in industry, %"
+      "title": "Share of workers employed by enterprises that belong to the high- and medium high-tech sectors of processing industry (including production of pharmaceutical products and preparations; chemicals; mechanical engineering; computers, electronic and optical products; aircraft and spacecraft; related equipment according to CTEA) in the total number of workers employed in industry, %"
     },
     {
       "path": "2-4-1/data.csv",
@@ -5378,7 +5412,7 @@
             "title": "Year"
           },
           {
-            "name": "by main product group",
+            "name": "by main product groups",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5394,7 +5428,7 @@
                 "eggs"
               ]
             },
-            "title": "by main product group"
+            "title": "by main product groups"
           }
         ]
       },
@@ -5432,7 +5466,7 @@
           }
         ]
       },
-      "title": "Share of exports of goods whose production uses technologies of high and medium high level in total exports of goods, % (groups /Products of chemical and related industries/, /Polymers, plastics and articles thereof/, /Machinery, equipment and mechanisms, electrical equipment/, ‘/Ground transportation, aircraft, floating craft/, 90th subgroup of the group /Optical and photographic devices and appliances/ (UCGFEA))"
+      "title": "Share of exports of goods whose production uses technologies of high and medium high level in total exports of goods, % (groups ‘Products of chemical and related industries’, ‘Polymers, plastics and articles thereof’, ‘Machinery, equipment and mechanisms, electrical equipment’, ‘Ground transportation, aircraft, floating craft’, 90th subgroup of the group ‘Optical and photographic devices and appliances’ (UCGFEA))"
     },
     {
       "path": "4-2-1/data.csv",
@@ -5556,7 +5590,7 @@
             "constraints": {
               "enum": [
                 "",
-                "Production of rusks and biscuits; production of  long-term storage flour confectionery, cakes and pastries",
+                "Production of rusks and biscuits; production of long-term storage flour confectionery, cakes and pastries",
                 "Production of other food products",
                 "Production of sugar",
                 "Production of cocoa, chocolate and sugar confectionery",
@@ -5568,10 +5602,10 @@
                 "Processing and preserving of fruits and vegetables",
                 "Production of oil and animal fats",
                 "Production of dairy products",
-                "Production of  flour and cereal products, starches and starch products",
+                "Production of flour and cereal products, starches and starch products",
                 "Production of flour and cereal products",
                 "Production of bread, bakery and flour products",
-                "Production of bread and bakery products; production of  short-term storage flour confectionery, cakes and pastries"
+                "Production of bread and bakery products; production of short-term storage flour confectionery, cakes and pastries"
               ]
             },
             "title": "Group"
@@ -5612,7 +5646,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -5739,7 +5773,7 @@
                 "agriculture, forestry and fisheries",
                 "industry",
                 "construction",
-                "wholesale and retail trade, repair of motor vehicles and motorcycles",
+                "wholesale and retail trade; repair of motor vehicles and motorcycles",
                 "transport, warehousing, post and courier services",
                 "temporary accommodation and catering",
                 "information and telecommunications",
@@ -5801,7 +5835,7 @@
           }
         ]
       },
-      "title": "Number of normative acts which were revised or adopted to provide men and women with equal rights and opportunities to prevent discrimination again women and girls, units"
+      "title": "Number of normative acts which were revised or adopted to provide men and women with equal rights and opportunities and to prevent discrimination against women and girls, units"
     },
     {
       "path": "3-4-3/data.csv",
@@ -5825,7 +5859,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -5843,7 +5877,7 @@
                 "Cherkasy",
                 "Chernivtsi",
                 "Chernihiv",
-                "Kyiv city"
+                "the city of Kyiv"
               ]
             },
             "title": "Region"
@@ -5860,7 +5894,7 @@
           }
         ]
       },
-      "title": "Number of deaths from malignant breast tumours at the age of 30–59, per 100000 women of appropriate age"
+      "title": "Number of deaths from malignant breast tumours at the age of 30–59, per 100,000 women of appropriate age"
     },
     {
       "path": "4-4-1/data.csv",
@@ -6238,18 +6272,6 @@
       "schema": {
         "fields": [
           {
-            "name": "Gender",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "females",
-                "males"
-              ]
-            },
-            "title": "Gender"
-          },
-          {
             "name": "Level",
             "type": "string",
             "constraints": {
@@ -6277,8 +6299,20 @@
             "title": "Settlement"
           },
           {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "women",
+                "men"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           },
           {
@@ -6312,7 +6346,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -6330,7 +6364,7 @@
                 "Cherkasy",
                 "Chernivtsi",
                 "Chernihiv",
-                "Kyiv city"
+                "the city of Kyiv"
               ]
             },
             "title": "Region"
@@ -6598,7 +6632,7 @@
             "constraints": {
               "enum": [
                 "",
-                "hectares",
+                "Demined area, hectares",
                 "сleared roads, km",
                 "сleared railways, km"
               ]
@@ -6783,9 +6817,9 @@
             "constraints": {
               "enum": [
                 "",
-                "coal",
-                "petroleum",
-                "natural gas"
+                "coal (2701)",
+                "petroleum (2709)",
+                "natural gas (271121)"
               ]
             },
             "title": "Source of energy"
@@ -6826,7 +6860,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -7299,18 +7333,6 @@
             "title": "Age"
           },
           {
-            "name": "Gender",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "females",
-                "males"
-              ]
-            },
-            "title": "Gender"
-          },
-          {
             "name": "Level_ed",
             "type": "string",
             "constraints": {
@@ -7325,6 +7347,18 @@
               ]
             },
             "title": "Level of education"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "women",
+                "men"
+              ]
+            },
+            "title": "Sex"
           },
           {
             "name": "Value",
@@ -7436,7 +7470,7 @@
             "title": "Age"
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -7445,7 +7479,7 @@
                 "male"
               ]
             },
-            "title": "Gender"
+            "title": "Sex"
           },
           {
             "name": "Type of residence",
@@ -7508,7 +7542,7 @@
           }
         ]
       },
-      "title": "Setting and implementation of a voluntary national objective to achieve a neutral level of land degradation in the activity area ‘Maintaining organic matter (humus) content in soils’ (organic carbon (humus) content in agricultural soils (%)) (data from international sources and organizations may be additionally used)"
+      "title": "Setting and implementation of a voluntary national objective to achieve a neutral level of land degradation in the activity area — ‘Maintaining organic matter (humus) content in soils’ (organic carbon (humus) content in agricultural soils (%))"
     },
     {
       "path": "4-3-1/data.csv",

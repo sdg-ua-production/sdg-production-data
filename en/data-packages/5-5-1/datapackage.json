@@ -38,7 +38,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -56,7 +56,7 @@
                 "Cherkasy",
                 "Chernivtsi",
                 "Chernihiv",
-                "Kyiv city"
+                "the city of Kyiv"
               ]
             },
             "title": "Region"
@@ -77,5 +77,5 @@
   ],
   "profile": "data-package",
   "name": "5-5-1",
-  "title": "Birth rate under the age of 20, per 1000 women aged 15-19"
+  "title": "Birth rate under the age of 20, per 1,000 women aged 15-19"
 }

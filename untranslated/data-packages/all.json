@@ -231,7 +231,7 @@
             "type": "integer"
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -489,7 +489,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -622,7 +622,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -752,7 +752,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -965,7 +965,7 @@
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
@@ -1157,7 +1157,7 @@
             }
           },
           {
-            "name": "Gender of the head of household",
+            "name": "Sex of the head of household",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1286,7 +1286,7 @@
             }
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1521,7 +1521,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -1785,7 +1785,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -1893,7 +1893,7 @@
             "type": "integer"
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2029,7 +2029,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -2192,7 +2192,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -2322,7 +2322,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -2430,12 +2430,12 @@
             "type": "integer"
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "female",
-                "male",
+                "females",
+                "males",
                 ""
               ]
             }
@@ -2447,6 +2447,17 @@
               "enum": [
                 "urban",
                 "rural",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage",
+                "min_day",
                 ""
               ]
             }
@@ -2539,7 +2550,7 @@
             }
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2705,7 +2716,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -2729,7 +2740,7 @@
             }
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2772,7 +2783,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -3099,6 +3110,10 @@
                 "com_11_migrate",
                 "com_12_cooperation",
                 "com_13_pol_sec",
+                "com_14_dialog_gr",
+                "com_15_belief_changes",
+                "com_16_soc_tolerance",
+                "com_17_active_position",
                 ""
               ]
             }
@@ -3111,7 +3126,7 @@
                 "14_reg_Donetsk",
                 "21_reg_Luhansk",
                 "13_reg_Dnipropetrovsk",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "29_reg_Kharkiv",
                 ""
               ]
@@ -3124,7 +3139,9 @@
               "enum": [
                 "age_1_18_35",
                 "age_2_36_60",
+                "age_36_59",
                 "age_3_61",
+                "age_60",
                 ""
               ]
             }
@@ -3293,7 +3310,7 @@
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
@@ -3446,7 +3463,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -3533,7 +3550,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -3589,7 +3606,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -3644,7 +3661,7 @@
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
@@ -3740,7 +3757,7 @@
             }
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -3818,7 +3835,7 @@
           }
         ]
       },
-      "title": "global_indicators.5-1-1-title"
+      "title": "global_indicators.15-1-1-title"
     },
     {
       "path": "5-2-11/data.csv",
@@ -4315,7 +4332,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -4495,7 +4512,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -4730,9 +4747,25 @@
           },
           {
             "name": "Group",
-            "type": "number",
+            "type": "string",
             "constraints": {
               "enum": [
+                "11_agricul",
+                "12_indu",
+                "13_constr",
+                "14_motor_veh",
+                "15_courier",
+                "16_cater",
+                "17_telecom",
+                "18_insurance",
+                "19_estate",
+                "20_scientific",
+                "21_support",
+                "22_public",
+                "23_educ",
+                "24_health",
+                "25_arts",
+                "26_other_serv",
                 ""
               ]
             }
@@ -4955,7 +4988,7 @@
             }
           },
           {
-            "name": "by main product group",
+            "name": "by main product groups",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5180,7 +5213,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -5378,7 +5411,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -5786,7 +5819,7 @@
             }
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5798,7 +5831,7 @@
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
@@ -5829,7 +5862,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -6302,7 +6335,7 @@
                 "14_reg_Donetsk",
                 "15_reg_Zhytomyr",
                 "16_reg_Zakarpattya",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "18_reg_Ivano-Frankivsk",
                 "19_reg_Kyiv",
                 "20_reg_Kirovohrad",
@@ -6740,7 +6773,7 @@
             }
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -6857,7 +6890,7 @@
             }
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [

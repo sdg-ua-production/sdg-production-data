@@ -22,7 +22,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -40,7 +40,7 @@
                 "Cherkasy",
                 "Chernivtsi",
                 "Chernihiv",
-                "Kyiv city"
+                "the city of Kyiv"
               ]
             },
             "title": "Region"
@@ -61,5 +61,5 @@
   ],
   "profile": "data-package",
   "name": "3-4-4",
-  "title": "Number of deaths from malignant cervical tumours at the age of 30–59, per 100000 women of appropriate age"
+  "title": "Number of deaths from malignant cervical tumours at the age of 30–59, per 100,000 women of appropriate age"
 }

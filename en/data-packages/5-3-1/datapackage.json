@@ -11,16 +11,16 @@
       "schema": {
         "fields": [
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "female",
-                "male"
+                "women",
+                "men"
               ]
             },
-            "title": "Gender"
+            "title": "Sex"
           },
           {
             "name": "Type of residence",
@@ -33,6 +33,18 @@
               ]
             },
             "title": "Type of residence"
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "percentage",
+                "minutes per day"
+              ]
+            },
+            "title": "Unit"
           },
           {
             "name": "Value",

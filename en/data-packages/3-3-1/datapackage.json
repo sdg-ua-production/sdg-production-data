@@ -11,18 +11,6 @@
       "schema": {
         "fields": [
           {
-            "name": "Gender",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "female",
-                "male"
-              ]
-            },
-            "title": "Gender"
-          },
-          {
             "name": "Group",
             "type": "number",
             "constraints": {
@@ -44,7 +32,7 @@
                 "Donetsk",
                 "Zhytomyr",
                 "Zakarpattya",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Ivano-Frankivsk",
                 "Kyiv",
                 "Kirovohrad",
@@ -62,10 +50,22 @@
                 "Cherkasy",
                 "Chernivtsi",
                 "Chernihiv",
-                "Kyiv city"
+                "the city of Kyiv"
               ]
             },
             "title": "Region"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "female",
+                "male"
+              ]
+            },
+            "title": "Sex"
           },
           {
             "name": "Value",
@@ -83,5 +83,5 @@
   ],
   "profile": "data-package",
   "name": "3-3-1",
-  "title": "Number of patients diagnosted with HIV for the first time, per 100000 persons"
+  "title": "Number of patients diagnosted with HIV for the first time, per 100,000 persons"
 }

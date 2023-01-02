@@ -16,25 +16,13 @@
             "constraints": {
               "enum": [
                 "",
-                "under 18 years old",
+                "under 18 years",
                 "18-34 years",
                 "35-59 years",
-                "over 60 years"
+                "60 years and older"
               ]
             },
             "title": "Age"
-          },
-          {
-            "name": "Gender",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "females",
-                "males"
-              ]
-            },
-            "title": "Gender"
           },
           {
             "name": "Households",
@@ -47,6 +35,18 @@
               ]
             },
             "title": "Households"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "women",
+                "men"
+              ]
+            },
+            "title": "Sex"
           },
           {
             "name": "Value",

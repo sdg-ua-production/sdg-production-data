@@ -15,12 +15,12 @@
             "type": "integer"
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "female",
-                "male",
+                "females",
+                "males",
                 ""
               ]
             }
@@ -32,6 +32,17 @@
               "enum": [
                 "urban",
                 "rural",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage",
+                "min_day",
                 ""
               ]
             }

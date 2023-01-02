@@ -28,7 +28,7 @@
             "title": "Місцевість проживання"
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [

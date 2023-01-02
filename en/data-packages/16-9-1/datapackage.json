@@ -18,7 +18,9 @@
                 "",
                 "18-35 years",
                 "36-60 years",
-                "over 61 years"
+                "36-59 years",
+                "61 years and older",
+                "60 years and older"
               ]
             },
             "title": "Age"
@@ -33,6 +35,10 @@
                 "propensity to migrate",
                 "cooperation in the community",
                 "political security",
+                "readiness for dialogue with different groups",
+                "the belief that everyone can influence changes in the country",
+                "social tolerance",
+                "active civic position",
                 "social cohesion and sense of ownership",
                 "tolerance and socially responsible citizenship",
                 "psycho-social adaptability",
@@ -52,8 +58,8 @@
             "constraints": {
               "enum": [
                 "",
-                "females",
-                "males"
+                "women",
+                "men"
               ]
             },
             "title": "Gender"
@@ -66,7 +72,7 @@
                 "",
                 "Dnipropetrovsk",
                 "Donetsk",
-                "Zaporizhya",
+                "Zaporizhzhya",
                 "Luhansk",
                 "Kharkiv"
               ]

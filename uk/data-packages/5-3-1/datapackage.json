@@ -16,7 +16,7 @@
             "title": "Рік"
           },
           {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -38,6 +38,18 @@
               ]
             },
             "title": "Місцевість проживання"
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "відсотків",
+                "хвилин на добу",
+                ""
+              ]
+            },
+            "title": "Одиниця виміру"
           },
           {
             "name": "Value",

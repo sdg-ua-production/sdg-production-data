@@ -32,6 +32,10 @@
                 "com_11_migrate",
                 "com_12_cooperation",
                 "com_13_pol_sec",
+                "com_14_dialog_gr",
+                "com_15_belief_changes",
+                "com_16_soc_tolerance",
+                "com_17_active_position",
                 ""
               ]
             }
@@ -44,7 +48,7 @@
                 "14_reg_Donetsk",
                 "21_reg_Luhansk",
                 "13_reg_Dnipropetrovsk",
-                "17_reg_Zaporizhya",
+                "17_reg_Zaporizhzhya",
                 "29_reg_Kharkiv",
                 ""
               ]
@@ -57,7 +61,9 @@
               "enum": [
                 "age_1_18_35",
                 "age_2_36_60",
+                "age_36_59",
                 "age_3_61",
+                "age_60",
                 ""
               ]
             }
