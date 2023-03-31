@@ -5940,21 +5940,22 @@
             "constraints": {
               "enum": [
                 "",
+                "Urban electric transport",
                 "rail",
                 "motor",
                 "sea",
                 "river",
                 "air",
-                "tram",
-                "trolleybus",
-                "subway"
+                "by trams",
+                "by trolleybuses",
+                "by subway trains"
               ]
             },
             "title": "Mode of transport"
           }
         ]
       },
-      "title": "Number of passengers, millions"
+      "title": "Number of passengers, million persons"
     },
     {
       "path": "17-1-2/data.csv",
@@ -6037,7 +6038,7 @@
           }
         ]
       },
-      "title": "Number of persons employed by SMEs, millions of persons"
+      "title": "Number of persons employed by SMEs, million persons"
     },
     {
       "path": "15-3-2/data.csv",
